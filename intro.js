@@ -4,16 +4,17 @@ let navButtons = document.querySelector(".nav-btn");
 let navbar = document.querySelector(".navbar");
 let navY = 50;
 let time = null;
+let change = 0.1;
 
 navbar.style.display = "none";
 arrow.addEventListener('click', function() {
     console.log(navbar.style.display);
-
 function slideDown(){
     if (navY < 52){  
         console.log(navY + "px")
         navbar.style.height = navY + "px";
-        navY = (navY + 1)
+        change = change - 0.01;
+        navY = (navY + change);
     }else{
         clearInterval(time);
     }
@@ -27,6 +28,7 @@ function slideDown(){
         document.querySelector(".arw-box").style.filter = "opacity(100%)";
         navY = 0;
         navbar.style.height = "0px";
+        change = 1.1;
         time = setInterval(slideDown/*(1)*/, 4);      
 
     }     
