@@ -57,9 +57,10 @@ body{
 
 .navbar{
     background-color:rgb(255, 233, 255);
-    height:50%;
     /*border-radius:50cm;*/
     display:none;
+    height:50px;
+    height:auto;
 }
 
 .nav-btn{
@@ -84,12 +85,15 @@ body{
 }
 
 .arw-box{
+    z-index: 1;
     position:absolute;
+    right:50px;
+    top:9px;
     margin-left:80px;
     background-color:rgb(255, 233, 255);
-    display:inline-block;
     border-radius:10px;
     transform: scaleY(1);
+    filter:opacity(50%);
 }
 
 .arw-box:hover{
