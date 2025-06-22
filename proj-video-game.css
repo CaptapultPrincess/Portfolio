@@ -1,0 +1,9 @@
+.interactive-box{
+    width:800px;
+    height:500px;
+    background-color:rgba(255, 255, 255, 0.621);
+    margin:auto;
+    margin-top:50px;
+    border-radius:30px;
+    border:10px solid purple;
+}

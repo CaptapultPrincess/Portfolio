@@ -1,0 +1,39 @@
+.project{
+    text-align:center;
+}
+.body{
+    text-align:center;
+}
+.video-game-card{
+    text-align:center;
+    width:590px;
+    background-color:purple;    
+    border-radius:10px;
+    height:500px;
+    color:white;
+    margin-top:50px;
+    display:inline-block;
+    padding:5px;
+    margin-left:10px;
+
+}
+
+.image-card{
+    width:100%;
+    border-radius:10px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+
+}
+
+.video-button{
+    display:inline-block;
+    text-align:center;
+    background-color:black;
+    width:fit-content;
+    margin-top:30px;
+    padding:20px;
+    border-radius:50px;
+    font-size:50px;
+
+}

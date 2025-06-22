@@ -1,0 +1,90 @@
+.white-line{
+    background-color:white;
+    height:20px;
+    width:auto;
+    color:white;
+}
+
+.black-box{
+    text-align:center;
+    height:350px;
+    padding:150px;
+}
+
+.me-img{
+    filter: opacity(0%) contrast(100%);
+    display:inline;
+}
+
+.me-programmer, .me-speaker, .me-artist, .me-nerd, .me-positive{
+    position:absolute;
+    display:none;
+    width:200px;
+    margin-top:-270px;
+    margin-left:-70px;
+}
+
+
+.int-box{
+    float:left;
+    background-color:rgb(46, 46, 46);
+    height:400px;
+    width:40%;
+    text-align:center;
+}
+
+.int-img{
+    float:left;
+    background-color:rgba(128, 20, 158, 0.525);
+    height:400px;
+    width:30%;
+    text-align:center;
+}
+.int-desc{
+    background-color:rgba(189, 26, 235, 0.525);
+    height:400px;
+    width:30%;
+    display:inline-block;
+    text-align:center;
+}
+
+
+
+.int-1, .int-2, .int-3,.int-4{
+    width:35%;
+    padding:5px;
+
+} 
+
+.img-int{
+    width:100%;
+    height:100%;
+}
+.header-int, .header-hello{
+    color:white;
+    font-size:50px;
+}
+.text-int, .text-hello{
+    color:white;
+    font-size:20px;
+}
+
+.hello-text{
+    display:inline-block;
+    background-color:purple;
+    height:400px;
+    width:50%;
+    text-align:center;
+}
+.hello-img{
+    float:right;
+    background-color:rgb(237, 0, 0);
+    height:400px;
+    width:50%;
+}
+
+.img-hello{
+    width:100%;
+    height:100%;
+
+}
