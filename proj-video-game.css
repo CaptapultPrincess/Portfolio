@@ -7,3 +7,16 @@
     border-radius:30px;
     border:10px solid purple;
 }
+
+.deighi-alt{
+    position:absolute;
+    width:350px;
+    margin-left:0px;
+    display:none;
+}
+
+.deighi-move{
+    position:absolute;
+    width:350px;
+    margin-left:0px;
+}
