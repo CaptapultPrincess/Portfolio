@@ -1,3 +1,7 @@
+/*Code Mostly for the Navbar*/
+
+/*Variables*/
+
 /*let navArrow = documentSelector(".arw-box");*/
 let arrow = document.querySelector(".down-arw");
 let navButtons = document.querySelector(".nav-btn");
@@ -7,12 +11,15 @@ let time = null;
 let change = 0.1;
 let changeY = 0.01;
 let counting = 0;
+
+/*Navbar Starts Down*/
 navbar.style.display = "none";
 
-
+/*Makes the Navbar move up/down*/
 function slideDown(slope, end){
     change = 0;
     navbar.style.display = "block";
+    /*Makes the Navbar move but slowly*/
     const countInterval = setInterval(math,1, slope, end);
 
 
@@ -37,6 +44,7 @@ function slideDown(slope, end){
    }
 }
 
+/*Triggers Navbar when clicked*/
 arrow.addEventListener('click', function() {
 
     if (navbar.style.display === "none"){
